@@ -1,0 +1,41 @@
+# Ruff configuration
+line-length = 120
+target-version = "py39"
+
+[lint]
+select = [
+    "E",  # Error
+    "W",  # Warning
+    "F",  # Pyflakes
+    "I",  # Isort
+    "N",  # Naming
+    "D",  # Pydocstyle
+    "UP", # Pyupgrade
+    "B",  # Bugbear
+    "A",  # Builtins
+    "C4", # Comprehensions
+    "SIM",# Simplify
+    "TID",# Tidy imports
+    "RET",# Return statement
+    "PTH",# Pathlib
+    "ERA",# Eradicate
+    "PL", # Pylint
+]
+ignore = [
+    "D100", # Missing docstring in public module
+    "D104", # Missing docstring in public package
+    "D105", # Missing docstring in magic method
+    "D107", # Missing docstring in __init__
+    "D203", # 1 blank line required before class docstring
+    "D213", # Multi-line docstring summary should start at the second line
+    "D406", # Section name should end with a colon
+    "D407", # Missing dashed underline after section header
+    "D413", # Missing blank line after last section
+    "E501", # Line too long (handled by formatter)
+]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
