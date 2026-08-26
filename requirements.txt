@@ -1,0 +1,23 @@
+langchain
+langchain-community
+langchain-groq
+langgraph
+
+pydantic
+python-dotenv
+
+streamlit
+fastapi
+uvicorn
+
+beautifulsoup4  # extract the information from website url
+tavily-python
+readability-lxml
+trafilatura
+requests
+lxml
+
+ipykernel
+
+rich # showing output clearly
+ruff
